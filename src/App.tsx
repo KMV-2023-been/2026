@@ -141,19 +141,19 @@ function DistrictsPage({ go }: { go: (page: string, id?: string) => void }) {
 
 const districtPhotos: Record<string, string[]> = {
   amursky: [
-    `${import.meta.env.BASE_URL}images/amurskiy_rayon/AfD6v98DlYpdHYqvaNVCTx-WimMZta084q6HqgGMMcVGovsDrMmxVgw8B1SmFTd1BjpAE3KfCWiUdOHbwrdVHwgc.jpg',
-    `${import.meta.env.BASE_URL}images/amurskiy_rayon/fOJzaWA7gBPW_MpehLRVFzpGT0Q9RKxJraveSDZtpiPF3huEdHr9fHg8Y_5xbkkRP7LsVV0QThnqP_Kc7Mgm8G0g.jpg',
-    `${import.meta.env.BASE_URL}images/amurskiy_rayon/OckryF-r589dMxiViZFW0ofhPwVyVe8ZhYUXOM0qvPwgGlnUfSsUxyQF953wYyEGbcK6WF3YGhR38YgG04_fqL4l.jpg',
-    `${import.meta.env.BASE_URL}images/amurskiy_rayon/uK8FFiVzqZVMO5PpzG2heAewWLY_qXOc23AYcYDTcbG5a3c-sJX7gwH11pRSOvXuffnJf_Rz95-f1NPcXGUh50Gm.jpg',
-    `${import.meta.env.BASE_URL}images/amurskiy_rayon/YN38bpx2_xmW2PTvJJ_ldyan3KVn_6nnpUkcFRP14wQjmx2dAdQoT9EUzUQEA-obs6gSU1_6mpO-GvqW_DCEEnMq.jpg',
+    '${import.meta.env.BASE_URL}images/amurskiy_rayon/AfD6v98DlYpdHYqvaNVCTx-WimMZta084q6HqgGMMcVGovsDrMmxVgw8B1SmFTd1BjpAE3KfCWiUdOHbwrdVHwgc.jpg',
+    '${import.meta.env.BASE_URL}images/amurskiy_rayon/fOJzaWA7gBPW_MpehLRVFzpGT0Q9RKxJraveSDZtpiPF3huEdHr9fHg8Y_5xbkkRP7LsVV0QThnqP_Kc7Mgm8G0g.jpg',
+    '${import.meta.env.BASE_URL}images/amurskiy_rayon/OckryF-r589dMxiViZFW0ofhPwVyVe8ZhYUXOM0qvPwgGlnUfSsUxyQF953wYyEGbcK6WF3YGhR38YgG04_fqL4l.jpg',
+    '${import.meta.env.BASE_URL}images/amurskiy_rayon/uK8FFiVzqZVMO5PpzG2heAewWLY_qXOc23AYcYDTcbG5a3c-sJX7gwH11pRSOvXuffnJf_Rz95-f1NPcXGUh50Gm.jpg',
+    '${import.meta.env.BASE_URL}images/amurskiy_rayon/YN38bpx2_xmW2PTvJJ_ldyan3KVn_6nnpUkcFRP14wQjmx2dAdQoT9EUzUQEA-obs6gSU1_6mpO-GvqW_DCEEnMq.jpg',
   ],
   'ayano-maysky': [
-    `${import.meta.env.BASE_URL}images/ayano-may_rayon/4YoS5vVIMJ-FqJ-3f6c8CBeGJw-ED0whpDmIJcU3Ny6_lgVLNZJ0N0vhDwNTP9irCJRqWhStG_0zbXj-KrrVqZ26.jpg',
-    `${import.meta.env.BASE_URL}images/ayano-may_rayon/p4wEc_lkYdZzQWjfkcokyGpzuCJhV6IViYU3cZJ43ekJMdNPGdPd-6Mx2gsos6oU48ag2KJvOikQh-4wEb3YRjzr.jpg',
+    '${import.meta.env.BASE_URL}images/ayano-may_rayon/4YoS5vVIMJ-FqJ-3f6c8CBeGJw-ED0whpDmIJcU3Ny6_lgVLNZJ0N0vhDwNTP9irCJRqWhStG_0zbXj-KrrVqZ26.jpg',
+    '${import.meta.env.BASE_URL}images/ayano-may_rayon/p4wEc_lkYdZzQWjfkcokyGpzuCJhV6IViYU3cZJ43ekJMdNPGdPd-6Mx2gsos6oU48ag2KJvOikQh-4wEb3YRjzr.jpg',
   ],
   bikinsky: [
-    `${import.meta.env.BASE_URL}images/bikinskiy_rayon/3sZf6cFujTRaMg3ak5eNm0Ron6tDvHib9MJoIFUZLeZqvbqKgCIYPo1WZ5CAISrpdMc3Buuo0YwVIVpqx29KW6QY.jpg',
-    `${import.meta.env.BASE_URL}images/bikinskiy_rayon/qw1tE80QAbL-4Rxs90KnwFKWCnx1S8qdBO8l0NWxw-3BzzPj3ql7p7EBHZlX_I_Cw0y14rwTGaK1xQ-Y_nm0bEsl.jpg',
+    '${import.meta.env.BASE_URL}images/bikinskiy_rayon/3sZf6cFujTRaMg3ak5eNm0Ron6tDvHib9MJoIFUZLeZqvbqKgCIYPo1WZ5CAISrpdMc3Buuo0YwVIVpqx29KW6QY.jpg',
+    '${import.meta.env.BASE_URL}images/bikinskiy_rayon/qw1tE80QAbL-4Rxs90KnwFKWCnx1S8qdBO8l0NWxw-3BzzPj3ql7p7EBHZlX_I_Cw0y14rwTGaK1xQ-Y_nm0bEsl.jpg',
   ],
 };
 
